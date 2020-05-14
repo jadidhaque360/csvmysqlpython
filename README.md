@@ -13,6 +13,7 @@ Howtorun -
 2>For database,I am using MySQL workbench, preferably try in that, install mysql workbench give username, password of your choice. In MySQL workbench,create a schema/database. 
 
 3>In the books.py make sure to make the changes to host,port,user,password,database as per your mysql settings. The database name can be the same as the one created earlier, host name and port id is 'localhost' and 3306 by default.
+ps, I have also put the csv files in main folder if you want to just run it in the same folder
 
 4>run the program
 
