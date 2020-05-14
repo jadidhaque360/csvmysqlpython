@@ -31,7 +31,7 @@ def insert_multiple_records():
 
 
         path=os.path.dirname(os.path.abspath(__file__)) #to find current path
-        for filename in os.listdir(path): # if we want to use current directory we can just write path inside() or custom directory then give directory inside ()
+        for filename in os.listdir(path): 
             if filename.endswith('.csv'):
 
                 table_list.append(filename)  #creating list of all files in the directory
